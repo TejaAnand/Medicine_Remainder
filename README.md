@@ -53,17 +53,11 @@ This is an embedded system project built on the **LPC2148 ARM7 microcontroller**
 MedicineReminder/
 
 ├── lcd.h
-
 ├── keypad.h
-
 ├── delay.h
-
 ├── lcd_defines.h
-
 ├── main.c
-
 ├── README.md
-
 └── requirements.txt
 
 ---

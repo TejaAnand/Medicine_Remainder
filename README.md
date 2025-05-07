@@ -52,13 +52,21 @@ This is an embedded system project built on the **LPC2148 ARM7 microcontroller**
 
 ```
 MedicineReminder/
-├── lcd.h              // 🖥️ Header file for LCD control functions
-├── keypad.h           // ⌨️ Header file for 4x4 matrix keypad interfacing
-├── delay.h            // ⏱️ Custom delay utilities for timing operations
-├── lcd_defines.h      // 🧾 Macro definitions for LCD command/data settings
-├── main.c             // 💡 Core embedded C program for RTC, alarms, and interaction
-├── README.md          // 📘 Project documentation and usage guide
-└── requirements.txt   // 📦 List of required tools, hardware, and software
+├── defines.h           // ⚙️ General purpose macro definitions
+├── delay.c             // ⏱️ Delay function implementations
+├── delay.h             // ⏱️ Delay function declarations
+├── keypad.c            // ⌨️ Keypad logic and scanning routines
+├── keypad.h            // ⌨️ Keypad interface definitions
+├── lcd.c               // 🖥️ LCD command/data function definitions
+├── lcd.h               // 🖥️ LCD interface header
+├── lcd_defines.h       // 📜 LCD command/data macro constants
+├── main.c              // 💡 Core program logic
+├── rtc_defines.h       // 🕰️ RTC-specific macro definitions
+├── rtc.h               // 🕰️ RTC configuration and function declarations
+├── types.h             // 🧾 Type definitions for portability
+├── Medicine_Remainder.hex // 🔧 Compiled hex file for uploading
+├── README.md           // 📘 Project documentation
+└── requirements.txt    // 📦 List of required hardware and software
 ```
 
 ---

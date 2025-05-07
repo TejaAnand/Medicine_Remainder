@@ -51,14 +51,14 @@ This is an embedded system project built on the **LPC2148 ARM7 microcontroller**
 ## 📂 Project Structure
 
 MedicineReminder/
+├── lcd.h              // 🖥️ Header file for LCD control functions
+├── keypad.h           // ⌨️ Header file for 4x4 matrix keypad interfacing
+├── delay.h            // ⏱️ Custom delay utilities for timing operations
+├── lcd_defines.h      // 🧾 Macro definitions for LCD command/data settings
+├── main.c             // 💡 Core embedded C program for RTC, alarms, and interaction
+├── README.md          // 📘 Project documentation and usage guide
+└── requirements.txt   // 📦 List of required tools, hardware, and software
 
-├── lcd.h
-├── keypad.h
-├── delay.h
-├── lcd_defines.h
-├── main.c
-├── README.md
-└── requirements.txt
 
 ---
 
